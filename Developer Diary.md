@@ -103,3 +103,32 @@ I finished pasting my developers diary into my GitHub repository... Making sure 
 I didn't really understand how the API key worked or prompting the AI so I asked Gemini to explain each line for me so that I knew what each line meant in case I wanted to change anything.
 I discovered that this code converts the pandas table, the monthly budget and the expenses into data for the AI agent to analyse. The code then prompts the AI so that it only responds as if it is a "helpful, realistic personal financial coach," ensuring that gives an appropriate AI analysis. 
 The last line of this code also ensures that if there are any errors with the AI, it will print an error message, rather than crashing the whole code.
+
+21/10/25
+12:56am
+
+<img width="1738" height="708" alt="image" src="https://github.com/user-attachments/assets/05b26b15-6b81-4e20-b9d7-eaa46199be03" />
+
+I am trying to make it so my API key can respond to questions rather than just answering the predetermined prompt, but I keep getting and error so I am going to try to fix that now.
+
+1:01am
+
+<img width="1121" height="517" alt="image" src="https://github.com/user-attachments/assets/c7598df8-fee9-4097-94bc-095948429578" />
+
+I tried to add the AI code in this section, which I have deleted and I asked Gemini why that wasn't working and it recommended for me to copy what I have done here except instead of "generate_ai_feedback" I could use "ask_custom_ai_advice" so that there is two sections that dont interfere with one another and fulfil their individual task.
+
+1:16am
+
+<img width="738" height="297" alt="image" src="https://github.com/user-attachments/assets/9c4cf399-a6cc-49c0-9335-0d14163f01ce" />
+
+I got an error code :(
+
+1:17am
+
+<img width="1531" height="583" alt="image" src="https://github.com/user-attachments/assets/ce698e8d-58e3-4686-8b4d-7aaa0e97de4d" />
+
+I tried asking AI a question not related to the task and it still responded appropriately meaning that it is now functioning correctly!
+
+Because we had to add two unique aspects to this financial assistant, one of mine was to make the theme personalised, and another was to give AI feedback based off the prompt I created.
+
+I am really happy with this finance tracker now and will spend tomorrow night fixing anything!
