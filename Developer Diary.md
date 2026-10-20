@@ -86,22 +86,21 @@ Eventually I managed ask multiple prompts to refine the code to make sure that i
 
 <img width="940" height="374" alt="image" src="https://github.com/user-attachments/assets/7d53a163-9e71-4eef-bb84-80a776435941" />
 
-Originally the user_transactions = [] was underneath global user_transactions at the top of the test run 
+Originally the user_transactions = [] was underneath global user_transactions at the top of the test run. 
 This was showing up in my Gradio website before as an included expense when I was testing the new code, so I needed to make sure it wasn’t being included as an additional expense anymore.
 
 4:47pm
 
 <img width="1900" height="1052" alt="image" src="https://github.com/user-attachments/assets/23e89cdb-51dc-4089-8f78-ec67e1a948b0" />
 
-I finished pasting my developers diary into my GitHub repository... Making sure to save everything this time.
-
+I finished pasting my developers diary into my GitHub repository.
 5:07pm
 
 <img width="1002" height="491" alt="image" src="https://github.com/user-attachments/assets/5ea9c59d-9a11-46bc-bb07-6748769929ed" />
 <img width="955" height="801" alt="image" src="https://github.com/user-attachments/assets/f7d00299-a298-49df-9c14-9c7c68999b9b" />
 
 I didn't really understand how the API key worked or prompting the AI so I asked Gemini to explain each line for me so that I knew what each line meant in case I wanted to change anything.
-I discovered that this code converts the pandas table, the monthly budget and the expenses into data for the AI agent to analyse. The code then prompts the AI so that it only responds as if it is a "helpful, realistic personal financial coach," ensuring that gives an appropriate AI analysis. 
+I discovered that this code converts the pandas table, the monthly budget and the expenses into data for the AI agent to analyse. The code then prompts the AI so that it only responds as if it is a "helpful, realistic personal financial coach," ensuring that it gives an appropriate AI analysis. 
 The last line of this code also ensures that if there are any errors with the AI, it will print an error message, rather than crashing the whole code.
 
 21/10/25
