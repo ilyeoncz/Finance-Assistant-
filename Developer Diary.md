@@ -59,13 +59,28 @@ I asked Gemini to help me allow the user to choose their own colour for the inte
 
 2:26pm
 
-<img width="940" height="628" alt="image" src="https://github.com/user-attachments/assets/07658597-ec21-4f78-8460-7e90d264ad03" />
-<img width="940" height="842" alt="image" src="https://github.com/user-attachments/assets/2f95ae7d-0a6e-4121-bf0b-b7d664321e63" />
-<img width="940" height="378" alt="image" src="https://github.com/user-attachments/assets/336abe1c-1a2d-4acb-acae-f6bff7c287eb" />  
-
 I pasted all of my code over the semester into gemini and asked it to unify it all into one tracker. 
 I had to refine it with multiple prompts, but after 5 attempts. This is what I have right now. 
 I am going to go through now line by line and edit and refine the code.
+
+<img width="940" height="628" alt="image" src="https://github.com/user-attachments/assets/07658597-ec21-4f78-8460-7e90d264ad03" />
+<img width="993" height="616" alt="image" src="https://github.com/user-attachments/assets/e971007c-6981-4515-a50f-44639cada3bb" />
+
+I still wanted to keep the colour personalisation function in my code, which Gemini didn't have. I asked how to integrate it into this code so that there was still an option of personalisation for the users!
+
+
+<img width="946" height="641" alt="image" src="https://github.com/user-attachments/assets/ddb0b292-2ea6-4593-b0be-2535b5d23e87" />
+
+I ended up ignoring this and copying what I did in module 8 
+
+<img width="1002" height="291" alt="image" src="https://github.com/user-attachments/assets/649f2157-52f2-4fed-8c04-75e423c886b4" />
+<img width="940" height="842" alt="image" src="https://github.com/user-attachments/assets/2f95ae7d-0a6e-4121-bf0b-b7d664321e63" />
+<img width="940" height="378" alt="image" src="https://github.com/user-attachments/assets/336abe1c-1a2d-4acb-acae-f6bff7c287eb" />  
+<img width="446" height="291" alt="image" src="https://github.com/user-attachments/assets/6d5f81a3-c42f-4c5a-8bf4-e4015d6eca73" />
+
+When I copied module 8, I did have to update the API to gemini-3.8-flash
+Eventually I managed ask multiple prompts to refine the code to make sure that it only included information I had learnt over the semester, whilst also adding my own touches from what stood out to me after everything I was taught. 
+
 
 4:01pm
 
@@ -79,3 +94,12 @@ This was showing up in my Gradio website before as an included expense when I wa
 <img width="1900" height="1052" alt="image" src="https://github.com/user-attachments/assets/23e89cdb-51dc-4089-8f78-ec67e1a948b0" />
 
 I finished pasting my developers diary into my GitHub repository... Making sure to save everything this time.
+
+5:07pm
+
+<img width="1002" height="491" alt="image" src="https://github.com/user-attachments/assets/5ea9c59d-9a11-46bc-bb07-6748769929ed" />
+<img width="955" height="801" alt="image" src="https://github.com/user-attachments/assets/f7d00299-a298-49df-9c14-9c7c68999b9b" />
+
+I didn't really understand how the API key worked or prompting the AI so I asked Gemini to explain each line for me so that I knew what each line meant in case I wanted to change anything.
+I discovered that this code converts the pandas table, the monthly budget and the expenses into data for the AI agent to analyse. The code then prompts the AI so that it only responds as if it is a "helpful, realistic personal financial coach," ensuring that gives an appropriate AI analysis. 
+The last line of this code also ensures that if there are any errors with the AI, it will print an error message, rather than crashing the whole code.
