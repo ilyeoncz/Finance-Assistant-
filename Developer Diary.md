@@ -1,5 +1,6 @@
 Developers Diary
 20/10 4:39pm - I wrote my developers diary on Word, and after double checking the project specifications I've realised that it is meant to be as part of my repository.
+
 10:06 am 4/09/26
 <img width="940" height="300" alt="image" src="https://github.com/user-attachments/assets/9c56e3ee-120a-44ec-bc46-ef53ac9e4cf0" /> 
 I am working on beginning my tracker based off code we studied in Module 2. This is just so that I have something to go off. I am likely to get rid of this or change it in future. 
