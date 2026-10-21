@@ -1,6 +1,18 @@
 Developers Diary
 20/10 4:39pm - I wrote my developers diary on Word, and after double checking the project specifications I've realised that it is meant to be as part of my repository.
 
+21/10 8:47pm - I also wrote my pseudocode on work and forgot to upload it so I will upload it here
+
+4/09/26 10:30am
+
+1.	Start the program - ask the user what colour theme they, set the default monthly budget to $500, create an empty list to store expenses. 
+2.	When an expense is logged: Read what was typed (description, amount, and category). Check if the numbers are valid so there are no negative amounts. Figure out how big the expense is compared to the budget (High, Moderate, or Minimal). Save this expense into the list. Recalculate total money spent and money remaining. Update the table on the screen to show the new expense. Send the expense list to the AI and display its coaching tips. 
+3.	When reset is chosen: Clear the expense list. Clear all text boxes and reset the budget back to $500. 
+4.	To ask custom questions: Read what user typed in the question box. Send their question along with their current expense table to the AI. Display the AI's answer.
+5.	Tests: Quickly check that basic math functions work properly before launching the app. 
+6.	Launch - Open the web interface with Gradio using the chosen colour theme.
+
+
 10:06 am 4/09/26
 
 <img width="940" height="300" alt="image" src="https://github.com/user-attachments/assets/9c56e3ee-120a-44ec-bc46-ef53ac9e4cf0" /> 
